@@ -1,0 +1,23 @@
+@media only screen and (max-width: 500px) {
+    .main .left-side {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        width: 375px;
+        margin-left: 1px
+    }
+    .main .right-side {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main .left-side, .main .right-side{
+        width: 360px;
+        margin-left: 11px;
+    }
+
+}
